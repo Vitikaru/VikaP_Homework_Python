@@ -1,0 +1,66 @@
+1. Строка - 6:
+def capitilize(self, string: str) -> str
+Было внесено изменение в код:
+def capitilize(string: str) -> str:
+
+2. Строка - 14:
+def trim(self, string: str) -> str: 
+Было внесено изменение в код:
+def trim(string: str) -> str:
+
+3. Строка - 24:
+def to_list(self, string: str, delimeter=",") -> list[str]:
+Было внесено изменение в код:
+def to_list(string: str, delimeter=",") -> list[str]:
+
+4. Строка - 33:
+if self.is_empty(string):
+Было внесено изменение в код:
+if not string:
+
+5. Строка - 38:
+def contains(self, string: str, symbol: str) -> bool:
+Было внесено изменение в код:
+def contains(string: str, symbol: str) -> bool:
+
+6. Строка - 56:
+def delete_symbol(self, string: str, symbol: str) -> str:
+Было внесено изменение в код:
+def delete_symbol(string: str, symbol: str) -> str:
+
+7. Строка - 65:
+if self.contains(string, symbol):
+Было внесено изменение в код;
+if symbol:
+
+8. Строка - 70:
+def starts_with(self, string: str, symbol: str) -> bool:
+Было внесено изменение в код:
+def starts_with(string: str, symbol: str) -> bool:
+
+9. Строка - 82:
+def end_with(self, string: str, symbol: str) -> bool:
+Было внесено изменение в код:
+def end_with(string: str, symbol: str) -> bool:
+
+10. Строка - 94:
+def is_empty(self, string: str) -> bool:
+Было внесено изменение в код:
+def is_empty(string: str) -> bool:
+
+11. Строка - 101:
+string = self.trim(string)
+Было внесено изменение в код:
+whitespace = " "
+while string.startswith(whitespace):
+string = string.removeprefix(whitespace)
+
+12. Строка - 107:
+def list_to_string(self, lst: list, joiner=", ") -> str:
+Было внесено изменение в код:
+def list_to_string(lst: list, joiner=", ") -> str:
+
+
+
+
+
