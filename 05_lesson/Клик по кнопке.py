@@ -13,3 +13,4 @@ for x in range(1, 6):
 delete = driver.find_elements(By.CSS_SELECTOR, '[onclick="deleteElement()"]')
 print(len(delete))
 sleep(10)
+driver.quit()

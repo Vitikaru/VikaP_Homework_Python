@@ -12,3 +12,4 @@ click = "button.btn-primary"
 button = driver.find_element(By.CSS_SELECTOR, click)
 button.click()
 sleep(10)
+driver.quit()
