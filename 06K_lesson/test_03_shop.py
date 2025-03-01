@@ -50,5 +50,3 @@ def test(driver):
             (By.CSS_SELECTOR, "div.summary_total_label"), "$58.29"))
     assert "$58.29" in driver.find_element(
             By.CSS_SELECTOR, "div.summary_total_label").text
-
-    driver.quit()

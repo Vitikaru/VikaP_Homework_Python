@@ -39,5 +39,3 @@ def test(driver):
 
     assert "15" in driver.find_element(
         By.CSS_SELECTOR, '[class="screen"]').text
-
-    driver.quit()
